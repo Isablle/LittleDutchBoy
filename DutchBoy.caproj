@@ -108,16 +108,12 @@
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7942445294303157" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500294">
                         <collision-poly>
-                            <point x="0.354167" y="0.386364" />
-                            <point x="0.5" y="0.340909" />
-                            <point x="0.729167" y="0.295455" />
-                            <point x="0.770833" y="0.5" />
-                            <point x="0.75" y="0.727273" />
-                            <point x="0.5" y="0.727273" />
-                            <point x="0.333333" y="0.636364" />
-                            <point x="0.3125" y="0.5" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -164,6 +160,22 @@
         </object-type>
         <object-type name="GoStart" sid="9516670918191588">
             <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite4Boat" sid="3278790137188262">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2404861786465898" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="5829814345032809">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2340703111037594" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

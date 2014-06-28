@@ -62,9 +62,6 @@
                     <param id="0" name="Variable">Score</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="0" name="Set text" sid="2338142168674465" type="Score">
-                    <param id="0" name="Text">Score</param>
-                </action>
                 <action id="-3" name="Create object" sid="5645165188648447" type="System">
                     <param id="0" name="Object to create">Sprite3</param>
                     <param id="1" name="Layer">0</param>
@@ -102,6 +99,9 @@
             </conditions>
             <actions>
                 <action id="-21" name="Reset global variables" sid="7566384466974261" type="System" />
+                <action id="0" name="Set text" sid="2338142168674465" type="Score">
+                    <param id="0" name="Text">Score</param>
+                </action>
                 <action id="-24" name="Move to top" sid="2413468822930458" type="BoringFailMessage" />
                 <action id="2" name="Set visible" sid="8537368743765463" type="GoStart">
                     <param id="0" name="Visibility">1</param>
